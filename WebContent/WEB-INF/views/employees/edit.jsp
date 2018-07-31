@@ -7,7 +7,7 @@
                 <h2>id : ${employee.id} の従業員情報　編集ページ</h2>
                 <p>（パスワードは変更する場合のみ入力してください）</p>
                 <form method="POST" action="<c:url value='/employees/update' />">
-                    <c:import url="_form.jsp" />
+                    <c:import url="../layout/_form.jsp" />
                 </form>
 
                 <p><a href="#" onclick="confirmDestroy();">この従業員情報を削除する</a></p>
